@@ -1,4 +1,5 @@
 import "./App.css";
+import AddOns from "./components/AddOns";
 import Hero from "./components/Hero";
 import MarketPulse from "./components/MarketPulse";
 import Navbar from "./components/Navbar";
@@ -11,15 +12,14 @@ function App() {
       <Hero/>
       <MarketPulse/>
         <ul>
-          <li>Market Pulse</li>
           <li>Why Choose</li>
           <li>Companies</li>
-          <li>Pais Add-ons</li>
           <li>Featured in</li>
           <li>Blogs</li>
           <li>Looking</li>
           <li>FAQ</li> {/* https://preline.co/docs/accordion.html */}          
         </ul>
+        <AddOns/>
       </div>
         Grid
     </>
