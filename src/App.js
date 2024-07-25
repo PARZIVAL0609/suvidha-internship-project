@@ -1,4 +1,5 @@
 import "./App.css";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <Navbar/>
       <div className="bg-lightPeach ">
         <ul>
-          <li>Hero</li>
+          <li><Hero/></li>
           <li>Market Pulse</li>
           <li>Why Choose</li>
           <li>Companies</li>

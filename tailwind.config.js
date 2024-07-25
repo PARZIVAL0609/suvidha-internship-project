@@ -14,12 +14,9 @@ module.exports = {
       colors:{
         brightRed: '#fc4102',
         lightPeach: '#fef2ef',
-        brightRedSupLight: 'hsl(12, 88%, 95%)',
+        newBlack: '#3e3a45',
         darkBlue: '#3e2588',
-        darkGrayishBlue: 'hsl(227, 12%, 61%)',
-        veryDarkBlue: '#211f88',
-        veryPaleRed: 'hsl(13, 100%, 96%)',
-        veryLightGray: 'hsl(0, 0%, 98%)',
+        veryDarkBlue: '#211f88',        
       }
     },
   },
