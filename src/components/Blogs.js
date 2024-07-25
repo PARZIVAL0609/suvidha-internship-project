@@ -23,10 +23,7 @@ const Blogs = () => {
                         <img
                           alt="Salary Range by Experience and Industries in India 2024 "
                           src={penToGraph}
-                          decoding="async"
-                          data-nimg="responsive"
                           className="overflow-hidden transition duration-500 hover:scale-110"
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 30vw"
                         />
                       </span>
                     </div>
@@ -35,10 +32,7 @@ const Blogs = () => {
                         <img
                           alt="Salary Range by Experience and Industries in India 2024 "
                           src={penToGraph}
-                          decoding="async"
-                          data-nimg="responsive"
                           className="overflow-hidden transition duration-500 hover:scale-110 "
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 30vw"
                         />
                       </span>
                     </div>
@@ -75,10 +69,7 @@ const Blogs = () => {
                         <img
                           alt="How to negotiate for a better salary"
                           src={handshake}
-                          decoding="async"
-                          data-nimg="responsive"
                           className="overflow-hidden transition duration-500 hover:scale-110 "
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 30vw"
                         />
                       </span>
                     </div>
@@ -87,10 +78,7 @@ const Blogs = () => {
                         <img
                           alt="How to negotiate for a better salary"
                           src={handshake}
-                          decoding="async"
-                          data-nimg="responsive"
                           className="overflow-hidden transition duration-500 hover:scale-110"
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 30vw"
                         />
                       </span>
                     </div>
@@ -126,10 +114,7 @@ const Blogs = () => {
                         <img
                           alt="How to prepare for Performance Appraisal discussion"
                           src={interview}
-                          decoding="async"
-                          data-nimg="responsive"
                           className="overflow-hidden transition duration-500 hover:scale-110 "
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 30vw"
                         />
                       </span>
                     </div>
@@ -138,10 +123,7 @@ const Blogs = () => {
                         <img
                           alt="How to prepare for Performance Appraisal discussion"
                           src={interview}
-                          decoding="async"
-                          data-nimg="responsive"
                           className="overflow-hidden transition duration-500 hover:scale-110 rounded-lg hover:rounded-lg"
-                          sizes="(max-width: 768px) 50vw, (max-width: 1200px) 40vw, 30vw"
                         />
                       </span>
                     </div>
