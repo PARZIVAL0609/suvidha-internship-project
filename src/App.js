@@ -1,5 +1,6 @@
 import "./App.css";
 import Hero from "./components/Hero";
+import MarketPulse from "./components/MarketPulse";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -7,8 +8,9 @@ function App() {
     <>
       <Navbar/>
       <div className="bg-lightPeach ">
+      <Hero/>
+      <MarketPulse/>
         <ul>
-          <li><Hero/></li>
           <li>Market Pulse</li>
           <li>Why Choose</li>
           <li>Companies</li>
@@ -16,7 +18,7 @@ function App() {
           <li>Featured in</li>
           <li>Blogs</li>
           <li>Looking</li>
-          <li>FAQ</li>
+          <li>FAQ</li> {/* https://preline.co/docs/accordion.html */}          
         </ul>
       </div>
         Grid
