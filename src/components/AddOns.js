@@ -1,8 +1,8 @@
 import React from "react";
 import ArrowSVG from "./ArrowSVG";
-// import recruitmentSvg from "./recruitment-svg.svg";
-// import managedSvg from "./managed-icon-svg.svg";
-// import linkedinSvg from "./linked-in-icon-svg.svg";
+import recruitmentSvg from "../img/logo.svg";
+import managedSvg from "../img/logo.svg";
+import linkedinSvg from "../img/logo.svg";
 
 const AddOns = () => {
   return (
@@ -17,7 +17,13 @@ const AddOns = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 max-w-7xl w-11/12 mx-auto gap-12 z-10 ">
               <div className="text-center">
                 <div className="flex justify-center">
-                  {/* <img alt="" src={recruitmentSvg} /> */}
+                  <img
+                    alt=""
+                    width="100"
+                    height="100"
+                    className="h-28 w-28 invert brightness-100"
+                    src={recruitmentSvg}
+                  />
                 </div>
                 <h2 className="text-lg font-semibold pt-4">
                   <span className="xl:block">Recruitment Support</span>
@@ -37,7 +43,13 @@ const AddOns = () => {
               </div>
               <div className="text-center">
                 <div className="flex justify-center">
-                  {/* <img alt="" src={managedSvg} /> */}
+                  <img
+                    alt=""
+                    width="100"
+                    height="100"
+                    className="h-28 w-28 invert brightness-100"
+                    src={managedSvg}
+                  />
                 </div>
                 <h2 className="text-lg font-semibold pt-4">
                   <span className="xl:block">Managed Account Services</span>
@@ -57,7 +69,13 @@ const AddOns = () => {
               </div>
               <div className="text-center">
                 <div className="flex justify-center">
-                  {/* <img alt="" src={linkedinSvg} /> */}
+                  <img
+                    alt=""
+                    width="100"
+                    height="100"
+                    className="h-28 w-28 invert brightness-100"
+                    src={linkedinSvg}
+                  />
                 </div>
                 <h2 className="text-lg font-semibold pt-4">
                   <span className="xl:block">LinkedIn Management</span>
