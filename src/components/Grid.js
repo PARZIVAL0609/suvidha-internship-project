@@ -75,6 +75,7 @@ function Grid() {
                 <div>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://play.google.com/store/apps/details?id=in.inradius.inradius_app"
                   >
                     <img
@@ -92,6 +93,7 @@ function Grid() {
                 <div>
                   <a
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://apps.apple.com/us/app/inradius-in-job-search/id6476220207"
                   >
                     <img
