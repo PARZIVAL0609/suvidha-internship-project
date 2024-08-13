@@ -2,6 +2,7 @@ import "./App.css";
 import AddOns from "./components/AddOns";
 import Blogs from "./components/Blogs";
 import FeaturedIn from "./components/FeaturedIn";
+import Grid from "./components/Grid";
 import Hero from "./components/Hero";
 import Looking from "./components/Looking";
 import MarketPulse from "./components/MarketPulse";
@@ -17,14 +18,14 @@ function App() {
         <ul>
           <li>Why Choose</li>
           <li>Companies</li>
-          <li>FAQ</li> {/* https://preline.co/docs/accordion.html */}
+          <li>FAQ</li>
         </ul>
         <AddOns />
         <FeaturedIn />
         <Blogs />
         <Looking />
       </div>
-      Grid
+      <Grid/>
     </>
   );
 }
