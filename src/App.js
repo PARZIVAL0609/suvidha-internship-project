@@ -15,11 +15,6 @@ function App() {
       <div className="bg-lightPeach ">
         <Hero />
         <MarketPulse />
-        <ul>
-          <li>Why Choose</li>
-          <li>Companies</li>
-          <li>FAQ</li>
-        </ul>
         <AddOns />
         <FeaturedIn />
         <Blogs />
